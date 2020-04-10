@@ -2,15 +2,17 @@ use employee_db;
 
 INSERT INTO department
   (name)
-VALUES: ('finance'), ("Human resources"),("sales") ("legal"), ("Account manager");
+
+VALUES: (finance), (Human resources), (sales) (legal), (Account manager);
 
 INSERT INTO 
 (title, salary, department_id)
 
-VALUES: ("finance, 20000, 01), ("Human resources. 100000, 02"), ("sales, 50000. 03"), ("leagal, 50000, 04);
+VALUES: ('finance', 20000, 1),('Humanresources', 100000, 2"),('sales', 500000, 3), (legal, 50000, 4);
+ 
+ INSERT INTO
 
-INSERT INTO employee 
- (first_name, last_name, role_id, manager_id)
+ (first_name, last_name, role_id, manager_id);
 
-Values: ("Christian, Agbabiaka, 01, 02"), ("Samuel, Adeleke, 02, null"), ("Josephine, Ogunnaike 03, 04"), ("Sophia, Cadet, 04, null");
-
+Values: 
+("Christian, Agbabiaka, 1, 2"), ("Samuel, Adeleke, 2, null"), ("Josephine, Ogunnaike,3, 4"), ("Sophia, Cadet, 4, null");
