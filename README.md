@@ -1,1 +1,3 @@
 # employeetracker
+
+The purpose of this application is to help no developers store information into a database. This application helps organize data based on an employee's status, job title, and look up the salary. The interface that we are mimicking is called Content Management Systems. Users and company directors can use this database system to add/drop employees and search up anyone in the database. 
